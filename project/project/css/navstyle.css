@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background: #dfe9f5;
+    background-size: 100% 100%;
+    /* background-image: url("../images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+    
+}
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #12202e;
+    width: 6%;
+    overflow: hidden;
+    transition: width 0.5s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.7s ease;
+    margin: 10px 0 0 20px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.logo .span{
+    font-weight: bold;
+    display:flex;
+    padding-left: 55px;
+    font-size: 25px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+a{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+ a:hover{
+    background-color: #2f4661;
+    color: white;
+    text-decoration: none;
+} 
+nav:hover{
+    width: 17vw;
+    transition: all 0.7s ease;
+} 
+main{
+    transition: all 0.9s ease;
+
+}
+nav:hover ~ .cent{
+    width: 80vw;
+    margin-left: 19%;
+    transition: all 0.9s ease;
+} 

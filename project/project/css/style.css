@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    /* background-color:#12202e; */
+        background-image: url("../images/1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #eaeaea;
+        
+}
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(141, 9, 9);
+}
+h4
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(141, 9, 9);
+}
+
+
+.form-cont
+{
+    text-align: center;
+    margin: auto;
+    background-color: rgba(167, 194, 216,0.4);
+    width: 35vw;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 5vh;
+    background-position: center;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: serif;
+}
+.input-fild
+{
+    background: #eaeaea;
+  margin: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  max-height: 40px;
+  max-width: 100%;
+  transition: max-height 0.5s;
+  overflow: hidden;
+
+}
+.input-sec{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 35px;
+  
+  }
+  #submit
+  {
+    background-color: rgb(72, 72, 241);
+    margin: 20px 30% 20px 30% ;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    max-height: 40px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+
+  }
+.submit-btn
+{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 8px 15px;
+    color: #eaeaea;
+    font-weight: bolder;
+    font-size: x-large;
+}
+em{
+    color: crimson;
+}
